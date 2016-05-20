@@ -1,0 +1,263 @@
+*{
+    font-family: "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+    color:#6b450a;
+}
+
+a:hover{
+    text-decoration: none;
+}
+.side-nav .top{
+    display: block;
+    width: 190px \9;
+    margin: 0 0 -1px;
+    padding: 8px 14px;
+    border: 1px solid #FDC300;
+    font-size:16px;
+    cursor: pointer;
+    padding-right:0;
+    background:#FFD705;
+    color:#6b450a;
+    margin-bottom:10px;
+}
+.nav > li > a:hover, .nav > li > a:focus{
+    background:#FDC300;
+    border: 1px solid #FFD705;
+}
+.side-nav li{
+    list-style: none;
+}
+
+.page-header{
+    margin-top:10px;
+    height:48px;
+    margin-bottom:0;
+}
+
+.page-header .logo{
+    height:100%;
+    cursor: pointer;
+}
+.page-header .icon-user{
+    font-size:16px;
+}
+
+.form-error {
+    color:#b94a48;
+    display: none;
+    font-size:16px;
+}
+
+.form-success{
+    color:#3e8f3e;
+    display: none;
+    font-size:16px;
+}
+
+.function-button{
+    font-size:16px;
+    cursor: pointer;
+    margin-right:20px;
+}
+
+.function-button{
+    font-size:16px;
+    cursor: pointer;
+    margin-right:20px;
+}
+.function-button i, .function-button span {
+    color:#FDC300;
+}
+
+.function-button:hover i, .function-button:hover span {
+    color:#6b450a;
+}
+
+.breadcrumb{
+    margin-bottom: 10px;
+    border-radius: 0px;
+}
+
+.breadcrumb a{
+    color:#FDC300;
+}
+
+.list-header{
+    height:22px;
+    line-height: 22px;
+    padding:0 0px;
+}
+
+.list-header label{
+    margin-bottom: 0;
+    color:#6b450a;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.pagination-wrapper .pagination{
+    margin:0;
+}
+table {
+    border:1px solid #f5f5f5;
+}
+
+.submit {
+    width:60px;
+}
+.btn-operate {
+    border:none;
+    background: transparent;
+}
+
+.btn-operate[disabled],.submit[disabled]{
+    background-image: url(/static/images/loading.gif);
+    background-position: 50% center;
+    background-repeat: no-repeat;
+    text-indent: -1000em;
+}
+
+#map{
+    height:450px;
+}
+
+.no-padding{
+    padding:0;
+}
+.no-margin{
+    margin:0;
+}
+
+.background-transparent{
+    background: transparent;
+}
+
+.reminder{
+    color:darkgreen;
+}
+.center{
+    text-align: center;
+}
+.searchbox{
+    height: 3em;
+}
+.progress {
+    overflow: hidden;
+    height: 2px;
+    margin-bottom: 5px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.icon-2{
+    font-size: 2em;
+}
+.icon-3{
+    font-size: 4em;
+}
+.icon-4{
+    font-size: 7em;
+}
+.btn-file-color{
+    position: relative;
+    border-radius: 5px;
+    background: #dddddd;
+    padding: 0px;
+}
+
+.btn-file{
+    width: 120px;
+    height: 120px;
+}
+.btn-add{
+    position: absolute;
+    z-index: 100;
+    width: 120px;
+    height:120px;
+    line-height: 125px;
+    text-align: center;
+    color:darkgray;
+}
+.img-file{
+    position: absolute;
+    z-index: 101;
+    width: 120px;
+    height: 120px;
+    margin: 0;
+    opacity: 0;
+    -ms-filter: 'alpha(opacity=0)';
+}
+.images_zone{
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+    display: block;
+    position: absolute;
+    z-index: 102;
+    background: #dddddd;
+}
+.images_zone>img{
+    width: 100%;
+    height: 120px;
+    border-radius: 5px;
+}
+.images_zone>a{
+    position: absolute;
+    z-index: 103;
+    display: none;
+    top: 40px;
+    width: 120px;
+    height: 40px;
+    color: #ddd;
+    text-align: center;
+}
+.btn-file-max-height{
+    min-height: 290px;
+    max-height: 490px;
+}
+.btn-add-max{
+    position: absolute;
+    z-index: 100;
+    display: block;
+    height:290px;
+    line-height: 345px;
+    width: 100%;
+    text-align: center;
+    color:darkgray;
+}
+.img-file-max{
+    position: absolute;
+    z-index: 101;
+    width: 100%;
+    height: 290px;
+    margin: 0;
+    opacity: 0;
+    -ms-filter: 'alpha(opacity=0)';
+}
+.images_zone_max{
+    position: absolute;
+    z-index: 102;
+    width: 100%;
+    height: 290px;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    background: #dddddd;
+}
+.images_zone_max>img{
+    max-height: 290px;
+    border-radius: 5px;
+}
+.images_zone_max>a{
+    position: absolute;
+    z-index: 103;
+    top: 90px;
+    width: 100%;
+    color: #ddd;
+    text-align: center;
+}
+#categories tbody tr td{
+    border: 0px;
+}

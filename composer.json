@@ -1,0 +1,6 @@
+{
+    "require": {
+        "gregwar/captcha": "^1.1",
+        "apfelbox/php-file-download": "^2.1"
+    }
+}
